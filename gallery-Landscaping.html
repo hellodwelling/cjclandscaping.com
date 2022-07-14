@@ -997,7 +997,7 @@
             <div
     x-data="{
         activeImage: 0,
-        amountOfImages: 5,
+        amountOfImages: 6,
         next() {
             if (this.activeImage < this.amountOfImages - 1)
                 this.activeImage ++;
@@ -1018,7 +1018,7 @@
                     <button @click="activeImage = 0; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/b963be5c-3c1f-4f5c-afa0-9ed79897c0e9.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/f4f240c4-dadf-4ba7-9c35-f0292f6825f0.png" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
                             
                         </div>
 
@@ -1035,7 +1035,7 @@
                     <button @click="activeImage = 1; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/8713c1ab-e1f3-4048-9f24-12605a838a12.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/b963be5c-3c1f-4f5c-afa0-9ed79897c0e9.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
                             
                         </div>
 
@@ -1052,7 +1052,7 @@
                     <button @click="activeImage = 2; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/40f9585a-c06f-460d-8229-06b8b8c225db.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/8713c1ab-e1f3-4048-9f24-12605a838a12.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
                             
                         </div>
 
@@ -1069,7 +1069,7 @@
                     <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/b597e868-48b0-4f5f-bd5f-ec9cd73e7478.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/40f9585a-c06f-460d-8229-06b8b8c225db.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
                             
                         </div>
 
@@ -1084,6 +1084,23 @@
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/b597e868-48b0-4f5f-bd5f-ec9cd73e7478.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 5; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/8ba385dd-2e25-4966-9bcf-298a9fd2e5b7.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
@@ -1143,33 +1160,40 @@
                                 
                                     <li class="flex flex-col" x-show="activeImage === 0">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/b963be5c-3c1f-4f5c-afa0-9ed79897c0e9.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/f4f240c4-dadf-4ba7-9c35-f0292f6825f0.png" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 1">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/8713c1ab-e1f3-4048-9f24-12605a838a12.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/b963be5c-3c1f-4f5c-afa0-9ed79897c0e9.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 2">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/40f9585a-c06f-460d-8229-06b8b8c225db.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/8713c1ab-e1f3-4048-9f24-12605a838a12.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 3">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/b597e868-48b0-4f5f-bd5f-ec9cd73e7478.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/40f9585a-c06f-460d-8229-06b8b8c225db.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 4">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/b597e868-48b0-4f5f-bd5f-ec9cd73e7478.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 5">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/8ba385dd-2e25-4966-9bcf-298a9fd2e5b7.jpeg" alt="Landscaping for CJC Landscaping, LLC in Athens, Georgia" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
